@@ -8,9 +8,13 @@ const recipes = [
   { id: 3, title: 'Grilled Salmon', image: '/assets/images/salmon.jpg', ingredients: ['Salmon', 'Lemon', 'Olive oil'], instructions: 'Grill the salmon and squeeze lemon.' },
 ];
 
-function RecipeDetail() {
+function Recipedetail() {
   const { id } = useParams();
   const recipe = recipes.find((r) => r.id === parseInt(id));
+
+  if (!recipe) {
+    return <div>Recipe not found</div>;
+  }
 
   return (
     <div className="recipe-detail">
@@ -28,4 +32,4 @@ function RecipeDetail() {
   );
 }
 
-export default RecipeDetail;
+export default Recipedetail;

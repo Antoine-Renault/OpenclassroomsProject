@@ -6,12 +6,12 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <h1><Link to="/">Joshua Weissman Recipes</Link></h1>
+        <h1><Link to="/">Marmite</Link></h1>
       </div>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/recipes">All Recipes</Link></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/recipes">Recettes</Link></li>
         </ul>
       </nav>
     </header>
