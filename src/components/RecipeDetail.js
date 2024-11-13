@@ -6,7 +6,7 @@ function RecipeDetail({ recipe }) {
     <div className="recipe-detail">
       <h2>{recipe.title}</h2>
       <img src={`./assets/images/${recipe.image}`} alt={recipe.title} />
-      <p>Ingredients:</p>
+      <p>Ingrédients:</p>
       <ul>
         {recipe.ingredients.map((ingredient, index) => (
           <li key={index}>{ingredient}</li>

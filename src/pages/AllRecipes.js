@@ -1,21 +1,47 @@
-// src/pages/AllRecipes.js
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import RecipeCard from '../components/RecipeCard';
+import RecipeFilter from '../components/RecipeFilter';
+import SearchBar from '../components/SearchBar'; 
 import recipesData from '../data/recipes.json';
 
 function AllRecipes() {
-  const [recipes, setRecipes] = useState([]);
+  const [filters, setFilters] = useState({
+    cuisine: '',
+    occasion: '',
+    meal: '',
+    type: '',
+  });
+  const [searchQuery, setSearchQuery] = useState(''); 
 
-  useEffect(() => {
-    // Load the recipes data from the JSON file
-    setRecipes(recipesData);
-  }, []);
+  const handleFilterChange = (filterType, value) => {
+    setFilters({
+      ...filters,
+      [filterType]: value,
+    });
+  };
+
+  const handleSearch = (query) => {
+    setSearchQuery(query); 
+  };
+
+  const filteredRecipes = recipesData.filter((recipe) => {
+    const matchesSearch = recipe.title && recipe.title.includes(searchQuery); // Utilisation de recipe.title au lieu de recipe.name
+    return (
+      matchesSearch &&
+      (filters.cuisine === '' || recipe.cuisine === filters.cuisine) &&
+      (filters.occasion === '' || recipe.occasion === filters.occasion) &&
+      (filters.meal === '' || recipe.meal === filters.meal) &&
+      (filters.type === '' || recipe.type === filters.type)
+    );
+  });
+  
 
   return (
     <div className="all-recipes">
-      <h2>All Recipes</h2>
+      <SearchBar onSearch={handleSearch} /> {/* Add SearchBar here */}
+      <RecipeFilter onFilterChange={handleFilterChange} />
       <div className="recipe-list">
-        {recipes.map((recipe) => (
+        {filteredRecipes.map((recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />
         ))}
       </div>

@@ -1,0 +1,23 @@
+[
+    {
+      "label": "Cuisine",
+      "key": "cuisine",
+      "options": ["Tout", "Italien", "Indien", "Américain", "Asiatique"]
+    },
+    {
+      "label": "Occasion",
+      "key": "occasion",
+      "options": ["Tout", "Romantique", "Fête", "Week-end", "Amis & Famille", "Dîner de fête"]
+    },
+    {
+      "label": "Repas",
+      "key": "meal",
+      "options": ["Tout", "Dîner", "Déjeuner", "Petit-déjeuner", "Accompagnement", "Entrée", "Dessert", "Boisson"]
+    },
+    {
+      "label": "Type",
+      "key": "type",
+      "options": ["Tout", "Pâtes", "Curry", "Viande", "Fruits de mer", "Pizza", "Pain", "Sandwich", "Soupe", "Apéritif", "Desserts", "Nouilles"]
+    }
+  ]
+  

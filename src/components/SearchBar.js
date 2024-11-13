@@ -14,7 +14,7 @@ function SearchBar({ onSearch }) {
       type="text"
       value={query}
       onChange={handleChange}
-      placeholder="Search recipes..."
+      placeholder="Rechercher une recette..."
     />
   );
 }

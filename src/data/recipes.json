@@ -1,146 +1,146 @@
 [
-    {
-      "id": 1,
-      "title": "Spaghetti Bolognese",
-      "image": "/assets/images/spaghetti.jpg",
-      "cuisine": "Italian",
-      "occasion": "Romantic",
-      "meal": "Dinner",
-      "type": "Pasta"
-    },
-    {
-      "id": 2,
-      "title": "Chicken Curry",
-      "image": "/assets/images/chicken-curry.jpg",
-      "cuisine": "Indian",
-      "occasion": "Holiday",
-      "meal": "Dinner",
-      "type": "Meat"
-    },
-    {
-      "id": 3,
-      "title": "Grilled Salmon",
-      "image": "/assets/images/salmon.jpg",
-      "cuisine": "American",
-      "occasion": "Weekend",
-      "meal": "Lunch",
-      "type": "Meat"
-    },
-    {
-      "id": 4,
-      "title": "Garlic Bread",
-      "image": "/assets/images/garlic-bread.jpg",
-      "cuisine": "Italian",
-      "occasion": "Friend & Family",
-      "meal": "Side",
-      "type": "Bread"
-    },
-    {
-      "id": 5,
-      "title": "Pepperoni Pizza",
-      "image": "/assets/images/pepperoni-pizza.jpg",
-      "cuisine": "Italian",
-      "occasion": "Friend & Family",
-      "meal": "Dinner",
-      "type": "Pizza"
-    },
-    {
-      "id": 6,
-      "title": "Chocolate Cake",
-      "image": "/assets/images/chocolate-cake.jpg",
-      "cuisine": "American",
-      "occasion": "Holiday",
-      "meal": "Dessert",
-      "type": "Desserts"
-    },
-    {
-      "id": 7,
-      "title": "Ham Sandwich",
-      "image": "/assets/images/ham-sandwich.jpg",
-      "cuisine": "American",
-      "occasion": "Weekend",
-      "meal": "Lunch",
-      "type": "Sandwich"
-    },
-    {
-      "id": 8,
-      "title": "Chicken Noodles",
-      "image": "/assets/images/chicken-noodles.jpg",
-      "cuisine": "Asian",
-      "occasion": "Holiday",
-      "meal": "Dinner",
-      "type": "Noodle"
-    },
-    {
-      "id": 9,
-      "title": "Minestrone Soup",
-      "image": "/assets/images/minestrone-soup.jpg",
-      "cuisine": "Italian",
-      "occasion": "Friend & Family",
-      "meal": "Starter",
-      "type": "Soup"
-    },
-    {
-        "id": 10,
-        "title": "Lobster Tail",
-        "image": "/assets/images/lobster-tail.jpg",
-        "cuisine": "American",
-        "occasion": "Romantic",
-        "meal": "Dinner",
-        "type": "Seafood"
-      },
-      {
-        "id": 11,
-        "title": "Roast Turkey",
-        "image": "/assets/images/roast-turkey.jpg",
-        "cuisine": "American",
-        "occasion": "Holiday",
-        "meal": "Dinner",
-        "type": "Meat"
-      },
-      {
-        "id": 12,
-        "title": "BBQ Ribs",
-        "image": "/assets/images/bbq-ribs.jpg",
-        "cuisine": "American",
-        "occasion": "Friend & Family",
-        "meal": "Dinner",
-        "type": "Meat"
-      },
-      {
-        "id": 13,
-        "title": "Pancakes with Syrup",
-        "image": "/assets/images/pancakes.jpg",
-        "cuisine": "American",
-        "occasion": "Weekend",
-        "meal": "Breakfast",
-        "type": "Breakfast"
-      },
-      {
-        "id": 14,
-        "title": "Stuffed Mushrooms",
-        "image": "/assets/images/stuffed-mushrooms.jpg",
-        "cuisine": "Italian",
-        "occasion": "Romantic",
-        "meal": "Starter",
-        "type": "Appetizer"
-      },
-      {
-        "id": 15,
-        "title": "Eggnog",
-        "image": "/assets/images/eggnog.jpg",
-        "cuisine": "American",
-        "occasion": "Holiday",
-        "meal": "Drink",
-        "type": "Desserts"
-      },
-      {
-        "id": 16,
-        "title": "Pulled Pork Sandwich",
-        "image": "/assets/images/pulled-pork.jpg",
-        "cuisine": "American",
-        "occasion": "Friend & Family",
-        "meal": "Lunch",
-        "type": "Sandwich"
-      }
-  ]
+  {
+    "id": 1,
+    "title": "Spaghetti Bolognese",
+    "image": "/assets/images/spaghetti.jpg",
+    "cuisine": "Italien",
+    "occasion": "Romantique",
+    "meal": "Dîner",
+    "type": "Pâtes"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Curray",
+    "image": "/assets/images/chicken-curry.jpg",
+    "cuisine": "Indien",
+    "occasion": "Fête",
+    "meal": "Dîner",
+    "type": "Viande"
+  },
+  {
+    "id": 3,
+    "title": "Grilled Salmon",
+    "image": "/assets/images/salmon.jpg",
+    "cuisine": "Américain",
+    "occasion": "Week-end",
+    "meal": "Déjeuner",
+    "type": "Viande"
+  },
+  {
+    "id": 4,
+    "title": "Garlic Bread",
+    "image": "/assets/images/garlic-bread.jpg",
+    "cuisine": "Italien",
+    "occasion": "Amis & Famille",
+    "meal": "Accompagnement",
+    "type": "Pain"
+  },
+  {
+    "id": 5,
+    "title": "Pepperoni Pizza",
+    "image": "/assets/images/pepperoni-pizza.jpg",
+    "cuisine": "Italien",
+    "occasion": "Amis & Famille",
+    "meal": "Dîner",
+    "type": "Pizza"
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Cake",
+    "image": "/assets/images/chocolate-cake.jpg",
+    "cuisine": "Américain",
+    "occasion": "Fête",
+    "meal": "Dessert",
+    "type": "Desserts"
+  },
+  {
+    "id": 7,
+    "title": "Ham Sandwich",
+    "image": "/assets/images/ham-sandwich.jpg",
+    "cuisine": "Américain",
+    "occasion": "Week-end",
+    "meal": "Déjeuner",
+    "type": "Sandwich"
+  },
+  {
+    "id": 8,
+    "title": "Chicken Noodles",
+    "image": "/assets/images/chicken-noodles.jpg",
+    "cuisine": "Asiatique",
+    "occasion": "Fête",
+    "meal": "Dîner",
+    "type": "Nouilles"
+  },
+  {
+    "id": 9,
+    "title": "Minestrone Soup",
+    "image": "/assets/images/minestrone-soup.jpg",
+    "cuisine": "Italien",
+    "occasion": "Amis & Famille",
+    "meal": "Entrée",
+    "type": "Soupe"
+  },
+  {
+    "id": 10,
+    "title": "Lobster Tail",
+    "image": "/assets/images/lobster-tail.jpg",
+    "cuisine": "Américain",
+    "occasion": "Romantique",
+    "meal": "Dîner",
+    "type": "Fruits de mer"
+  },
+  {
+    "id": 11,
+    "title": "Roast Turkey",
+    "image": "/assets/images/roast-turkey.jpg",
+    "cuisine": "Américain",
+    "occasion": "Fête",
+    "meal": "Dîner",
+    "type": "Viande"
+  },
+  {
+    "id": 12,
+    "title": "BBQ Ribs",
+    "image": "/assets/images/bbq-ribs.jpg",
+    "cuisine": "Américain",
+    "occasion": "Amis & Famille",
+    "meal": "Dîner",
+    "type": "Viande"
+  },
+  {
+    "id": 13,
+    "title": "Pancakes with Syrup",
+    "image": "/assets/images/pancakes.jpg",
+    "cuisine": "Américain",
+    "occasion": "Week-end",
+    "meal": "Petit-déjeuner",
+    "type": "Petit-déjeuner"
+  },
+  {
+    "id": 14,
+    "title": "Stuffed Mushrooms",
+    "image": "/assets/images/stuffed-mushrooms.jpg",
+    "cuisine": "Italien",
+    "occasion": "Romantique",
+    "meal": "Entrée",
+    "type": "Apéritif"
+  },
+  {
+    "id": 15,
+    "title": "Eggnog",
+    "image": "/assets/images/eggnog.jpg",
+    "cuisine": "Américain",
+    "occasion": "Fête",
+    "meal": "Boisson",
+    "type": "Desserts"
+  },
+  {
+    "id": 16,
+    "title": "Pulled Pork Sandwich",
+    "image": "/assets/images/pulled-pork.jpg",
+    "cuisine": "Américain",
+    "occasion": "Amis & Famille",
+    "meal": "Déjeuner",
+    "type": "Sandwich"
+  }
+]
