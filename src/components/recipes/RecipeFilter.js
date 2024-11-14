@@ -1,6 +1,5 @@
-// src/components/RecipeFilter.js
 import React from 'react';
-import filterOptions from '../data/filterOptions.json';
+import filterOptions from '../../data/filterOptions.json';
 
 function RecipeFilter({ onFilterChange }) {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import RecipeCard from '../components/RecipeCard';
-import RecipeFilter from '../components/RecipeFilter';
-import SearchBar from '../components/SearchBar'; 
+import RecipeCard from '../components/recipes/RecipeCard';
+import RecipeFilter from '../components/recipes/RecipeFilter';
+import SearchBar from '../components/recipes/SearchBar'; 
 import recipesData from '../data/recipes.json';
 
 function AllRecipes() {

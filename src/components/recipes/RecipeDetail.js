@@ -1,4 +1,3 @@
-// src/components/RecipeDetail.js
 import React from 'react';
 
 function RecipeDetail({ recipe }) {

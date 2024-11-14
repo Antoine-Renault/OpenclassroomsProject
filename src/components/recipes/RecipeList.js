@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import RecipeFilter from '../components/RecipeFilter'; 
-import recipesData from '../data/recipes.json';
+import RecipeFilter from './RecipeFilter'; 
+import recipesData from '../../data/recipes.json';
 
 function RecipeList() {
   const [filters, setFilters] = useState({
